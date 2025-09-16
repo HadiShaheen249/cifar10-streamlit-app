@@ -4,7 +4,7 @@ from keras.models import load_model
 from PIL import Image
 
 # تحميل النموذج
-model = load_model("E:\hadi\deploy\cfar\model.h5")
+model = load_model("model.h5")
 
 # أسماء الأصناف
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
